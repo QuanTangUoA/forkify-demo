@@ -1,0 +1,33 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "A recipe app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Quan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "autoprefixer": "^10.2.4",
+    "cssnano": "^4.1.10",
+    "parcel": "^2.0.0-nightly.554",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^4.2.0",
+    "sass": "^1.32.5",
+    "sugarss": "^3.0.3"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-private-methods": "^7.12.1",
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "core-js": "^3.8.3",
+    "postcss": "^8.1.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
